@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             case R.id.register:
                 startActivity(new Intent(this, RegisterUser.class));
                 break;
+
         }
     }
 }
